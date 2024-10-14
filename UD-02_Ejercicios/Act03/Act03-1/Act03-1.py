@@ -36,7 +36,7 @@ try:
         )
 
     # Confirmar la transacción para guardar los cambios
-    #conexion.commit()
+    # conexion.commit()
 
     # Medir el tiempo después de las inserciones
     end_time = time.time()

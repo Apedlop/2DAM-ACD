@@ -40,7 +40,7 @@ try:
 
     # Medir el tiempo después de las inserciones
     end_time = time.time()
-    print(f"Tiempo de inserción con pymysql: {end_time - start_time} segundos")
+    print(f"Tiempo de inserción con mysql.connector: {end_time - start_time} segundos")
 
 except mysql.connector.MySQLError as e:
     print(f"Error de conexión o ejecución: {e}")
