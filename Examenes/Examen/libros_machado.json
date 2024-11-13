@@ -1,0 +1,32 @@
+[
+    {
+        "titulo": "Cien Años de Soledad",
+        "autor": "Gabriel García Márquez",
+        "genero": "Novela",
+        "año_publicacion": 1967
+    },
+    {
+        "titulo": "La Colmena",
+        "autor": "Camilo José Cela",
+        "genero": "Novela",
+        "año_publicacion": 1951
+    },
+    {
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "genero": "Distopía",
+        "año_publicacion": 1949
+    },
+    {
+        "titulo": "El Principito",
+        "autor": "Antoine de Saint-Exupéry",
+        "genero": "Ficción",
+        "año_publicacion": 1943
+    },
+    {
+        "titulo": "El Nombre de la Rosa",
+        "autor": "Umberto Eco",
+        "genero": "Misterio",
+        "año_publicacion": 1980
+    }
+]

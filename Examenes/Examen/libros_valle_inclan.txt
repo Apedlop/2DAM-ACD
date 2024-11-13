@@ -1,0 +1,7 @@
+    libros_iniciales = [
+        {"titulo": "Don Quijote de la Mancha", "autor": "Miguel de Cervantes", "genero": "Novela", "año_publicacion": 1605, "libreria_origen": "Ramón Valle Inclán"},
+        {"titulo": "Cien Años de Soledad", "autor": "Gabriel García Márquez", "genero": "Novela", "año_publicacion": 1967, "libreria_origen": "Ramón Valle Inclán"},
+        {"titulo": "Crimen y Castigo", "autor": "Fiódor Dostoyevski", "genero": "Novela", "año_publicacion": 1866, "libreria_origen": "Ramón Valle Inclán"},
+        {"titulo": "La Casa de los Espíritus", "autor": "Isabel Allende", "genero": "Novela", "año_publicacion": 1982, "libreria_origen": "Ramón Valle Inclán"},
+        {"titulo": "El Nombre de la Rosa", "autor": "Umberto Eco", "genero": "Misterio", "año_publicacion": 1980, "libreria_origen": "Ramón Valle Inclán"}
+    ]
