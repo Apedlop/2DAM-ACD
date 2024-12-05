@@ -1,0 +1,32 @@
+2024-12-02 12:54:46,879 - INFO - Conexión establecida con ZODB.
+2024-12-02 12:54:46,879 - INFO - Transacción iniciada.
+2024-12-02 12:54:46,880 - INFO - Mascota con ID 1 creada exitosamente.
+2024-12-02 12:54:46,880 - INFO - Mascota con ID 2 creada exitosamente.
+2024-12-02 12:54:46,880 - INFO - Mascota con ID 3 creada exitosamente.
+2024-12-02 12:54:46,880 - INFO - Transacción confirmada.
+2024-12-02 12:54:46,880 - INFO - Mostrando todas las mascotas después de inserciones:
+2024-12-02 12:54:46,880 - INFO - ID: 1, Nombre: Rex, Tipo: Perro, Raza: Pastor Alemán, Edad: 3, Peso: 15.0
+2024-12-02 12:54:46,880 - INFO - ID: 2, Nombre: Mimi, Tipo: Gato, Raza: Siames, Edad: 2, Peso: 5.0
+2024-12-02 12:54:46,880 - INFO - ID: 3, Nombre: Coco, Tipo: Perro, Raza: Labrador, Edad: 5, Peso: 20.0
+2024-12-02 12:54:46,880 - INFO - Transacción iniciada.
+2024-12-02 12:54:46,880 - ERROR - Error al crear la mascota con ID 1: Ya existe una mascota con ID 1.
+2024-12-02 12:54:46,880 - INFO - Transacción confirmada.
+2024-12-02 12:54:46,880 - INFO - Mostrando todas las mascotas después de intentar insertar un ID duplicado:
+2024-12-02 12:54:46,880 - INFO - ID: 1, Nombre: Rex, Tipo: Perro, Raza: Pastor Alemán, Edad: 3, Peso: 15.0
+2024-12-02 12:54:46,880 - INFO - ID: 2, Nombre: Mimi, Tipo: Gato, Raza: Siames, Edad: 2, Peso: 5.0
+2024-12-02 12:54:46,880 - INFO - ID: 3, Nombre: Coco, Tipo: Perro, Raza: Labrador, Edad: 5, Peso: 20.0
+2024-12-02 12:54:46,880 - INFO - Transacción iniciada.
+2024-12-02 12:54:46,880 - INFO - Mascota con ID 2 actualizada exitosamente.
+2024-12-02 12:54:46,881 - INFO - Transacción confirmada.
+2024-12-02 12:54:46,881 - INFO - Mostrando todas las mascotas después de actualizar un objeto:
+2024-12-02 12:54:46,881 - INFO - ID: 1, Nombre: Rex, Tipo: Perro, Raza: Pastor Alemán, Edad: 3, Peso: 15.0
+2024-12-02 12:54:46,881 - INFO - ID: 2, Nombre: Mimi, Tipo: Gato, Raza: Siames, Edad: 3, Peso: 6.0
+2024-12-02 12:54:46,881 - INFO - ID: 3, Nombre: Coco, Tipo: Perro, Raza: Labrador, Edad: 5, Peso: 20.0
+2024-12-02 12:54:46,881 - INFO - Transacción iniciada.
+2024-12-02 12:54:46,881 - ERROR - Error al eliminar la mascota con ID 10: No existe una mascota con ID 10.
+2024-12-02 12:54:46,881 - INFO - Transacción revertida.
+2024-12-02 12:54:46,881 - INFO - Mostrando todas las mascotas después de intentar eliminar un ID inexistente:
+2024-12-02 12:54:46,881 - INFO - ID: 1, Nombre: Rex, Tipo: Perro, Raza: Pastor Alemán, Edad: 3, Peso: 15.0
+2024-12-02 12:54:46,881 - INFO - ID: 2, Nombre: Mimi, Tipo: Gato, Raza: Siames, Edad: 3, Peso: 6.0
+2024-12-02 12:54:46,881 - INFO - ID: 3, Nombre: Coco, Tipo: Perro, Raza: Labrador, Edad: 5, Peso: 20.0
+2024-12-02 12:54:46,881 - INFO - Conexión a ZODB cerrada.

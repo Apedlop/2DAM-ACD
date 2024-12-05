@@ -1,0 +1,15 @@
+2024-12-02 12:00:29,551 - INFO - Conectado a MongoDB: 1dam.mascotas
+2024-12-02 12:00:29,551 - INFO - Transacción iniciada.
+2024-12-02 12:00:29,563 - INFO - Documento insertado con ID: 674d934d7b4080c14c1ab5ad
+2024-12-02 12:00:29,563 - INFO - Documento insertado con ID: 674d934d7b4080c14c1ab5ae
+2024-12-02 12:00:29,563 - INFO - Transacción confirmada.
+2024-12-02 12:00:29,564 - INFO - Documentos recuperados: 2
+2024-12-02 12:00:29,564 - INFO - {'_id': ObjectId('674d934d7b4080c14c1ab5ad'), 'nombre': 'Firulais', 'tipo': 'Perro', 'raza': 'Labrador', 'edad': 5, 'peso': 25.4}
+2024-12-02 12:00:29,564 - INFO - {'_id': ObjectId('674d934d7b4080c14c1ab5ae'), 'nombre': 'Michi', 'tipo': 'Gato', 'raza': 'Siames', 'edad': 3, 'peso': 4.2}
+2024-12-02 12:00:29,564 - INFO - Transacción iniciada.
+2024-12-02 12:00:29,566 - INFO - Documento actualizado: {'nombre': 'Firulais'}
+2024-12-02 12:00:29,566 - INFO - Transacción confirmada.
+2024-12-02 12:00:29,566 - INFO - Transacción iniciada.
+2024-12-02 12:00:29,567 - INFO - Documento eliminado: {'nombre': 'Michi'}
+2024-12-02 12:00:29,567 - INFO - Transacción confirmada.
+2024-12-02 12:00:29,567 - INFO - Conexión a MongoDB cerrada.

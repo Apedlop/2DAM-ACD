@@ -1,0 +1,26 @@
+2024-11-25 12:42:35,578 - INFO - Conexión exitosa a la base de datos.
+2024-11-25 12:42:35,579 - INFO - Transacción iniciada.
+2024-11-25 12:42:35,580 - INFO - Mascota 'Rex' insertada exitosamente.
+2024-11-25 12:42:35,583 - INFO - Transacción confirmada.
+2024-11-25 12:42:35,584 - INFO - Mascotas recuperadas:
+2024-11-25 12:42:35,584 - INFO - {'id': 1, 'tipo': 'Perro', 'raza': 'Pastor Alemán', 'edad': 5, 'peso': Decimal('35.50'), 'nombre': 'Firulais'}
+2024-11-25 12:42:35,584 - INFO - {'id': 3, 'tipo': 'Pez', 'raza': 'Cirujano', 'edad': 1, 'peso': Decimal('0.50'), 'nombre': 'Dory'}
+2024-11-25 12:42:35,584 - INFO - {'id': 4, 'tipo': 'Conejo', 'raza': 'Angora', 'edad': 2, 'peso': Decimal('1.75'), 'nombre': 'Bugs'}
+2024-11-25 12:42:35,584 - INFO - {'id': 5, 'tipo': 'Ave', 'raza': 'Loro', 'edad': 4, 'peso': Decimal('0.60'), 'nombre': 'Charlie'}
+2024-11-25 12:42:35,584 - INFO - {'id': 7, 'tipo': 'Perro', 'raza': 'Beagle', 'edad': 2, 'peso': Decimal('10.00'), 'nombre': 'Toby'}
+2024-11-25 12:42:35,584 - INFO - {'id': 9, 'tipo': 'Conejo', 'raza': 'Holandés', 'edad': 1, 'peso': Decimal('1.50'), 'nombre': 'Flopsy'}
+2024-11-25 12:42:35,584 - INFO - {'id': 10, 'tipo': 'Perro', 'raza': 'Poodle', 'edad': 3, 'peso': Decimal('8.00'), 'nombre': 'Bella'}
+2024-11-25 12:42:35,584 - INFO - {'id': 11, 'tipo': 'Perro', 'raza': 'Labrador', 'edad': 3, 'peso': Decimal('25.50'), 'nombre': 'Rex'}
+2024-11-25 12:42:35,584 - INFO - {'id': 12, 'tipo': 'Perro', 'raza': 'Labrador', 'edad': 3, 'peso': Decimal('25.50'), 'nombre': 'Rex'}
+2024-11-25 12:42:35,584 - INFO - {'id': 13, 'tipo': 'Perro', 'raza': 'Labrador', 'edad': 3, 'peso': Decimal('25.50'), 'nombre': 'Rex'}
+2024-11-25 12:42:35,585 - INFO - {'id': 14, 'tipo': 'Perro', 'raza': 'Labrador', 'edad': 3, 'peso': Decimal('25.50'), 'nombre': 'Rex'}
+2024-11-25 12:42:35,585 - INFO - Transacción iniciada.
+2024-11-25 12:42:35,589 - INFO - Mascota con ID 1 actualizada exitosamente.
+2024-11-25 12:42:35,592 - INFO - Transacción confirmada.
+2024-11-25 12:42:35,593 - INFO - Transacción iniciada.
+2024-11-25 12:42:35,594 - INFO - Mascota con ID 1 eliminada exitosamente.
+2024-11-25 12:42:35,597 - INFO - Transacción confirmada.
+2024-11-25 12:42:35,597 - INFO - Transacción iniciada.
+2024-11-25 12:42:35,598 - INFO - Mascota 'Luna' insertada exitosamente.
+2024-11-25 12:42:35,601 - INFO - Transacción revertida.
+2024-11-25 12:42:35,603 - INFO - Conexión cerrada.

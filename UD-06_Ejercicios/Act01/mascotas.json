@@ -1,0 +1,23 @@
+[
+    {
+        "tipo": "Perro",
+        "raza": "Bodeguero",
+        "edad": 3,
+        "peso": 9.8,
+        "nombre": "Yoyo"
+    },
+    {
+        "tipo": "Gato",
+        "raza": "Persa",
+        "edad": 3,
+        "peso": 4.5,
+        "nombre": "Luna"
+    },
+    {
+        "tipo": "Conejo",
+        "raza": "Mini Lop",
+        "edad": 2,
+        "peso": 2.2,
+        "nombre": "Bolita"
+    }
+]

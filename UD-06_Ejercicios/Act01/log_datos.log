@@ -1,0 +1,10 @@
+2024-11-25 12:17:40,591 - INFO - Transacción iniciada en 2024-11-25 12:17:40.591697
+2024-11-25 12:17:40,591 - INFO - Dato escrito: {'tipo': 'Perro', 'raza': 'Bodeguero', 'edad': 3, 'peso': 9.8, 'nombre': 'Yoyo'}
+2024-11-25 12:17:40,591 - INFO - Dato escrito: {'tipo': 'Gato', 'raza': 'Persa', 'edad': 3, 'peso': 4.5, 'nombre': 'Luna'}
+2024-11-25 12:17:40,591 - INFO - Dato escrito: {'tipo': 'Conejo', 'raza': 'Mini Lop', 'edad': 2, 'peso': 2.2, 'nombre': 'Bolita'}
+2024-11-25 12:17:40,592 - INFO - Transacción confirmada y datos guardados en 2024-11-25 12:17:40.592156
+2024-11-25 12:17:40,592 - INFO - Transacción iniciada en 2024-11-25 12:17:40.592233
+2024-11-25 12:17:40,592 - INFO - Dato escrito: {'tipo': 'Perro', 'raza': 'Bodeguero', 'edad': 3, 'peso': 9.8, 'nombre': 'Yoyo'}
+2024-11-25 12:17:40,592 - INFO - Dato escrito: {'tipo': 'Gato', 'raza': 'Persa', 'edad': 3, 'peso': 4.5, 'nombre': 'Luna'}
+2024-11-25 12:17:40,592 - INFO - Dato escrito: {'tipo': 'Conejo', 'raza': 'Mini Lop', 'edad': 2, 'peso': 2.2, 'nombre': 'Bolita'}
+2024-11-25 12:17:40,592 - INFO - Transacción confirmada y datos guardados en 2024-11-25 12:17:40.592463
