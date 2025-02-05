@@ -1,0 +1,16 @@
+2024-11-25 13:16:12,325 - INFO - Conexión exitosa a la base de datos.
+2024-11-25 13:16:12,325 - INFO - Transacción iniciada.
+2024-11-25 13:16:12,326 - INFO - Viaje 'Madrid' insertada exitosamente.
+2024-11-25 13:16:12,333 - INFO - Transacción confirmada.
+2024-11-25 13:16:12,334 - INFO - Viajes recuperados:
+2024-11-25 13:16:12,334 - INFO - {'id': 1, 'destino': 'Madrid', 'duracion': 12, 'tipo_viaje': 'Negocios', 'precio': 205, 'fecha_salida': datetime.date(2022, 3, 14)}
+2024-11-25 13:16:12,334 - INFO - Transacción iniciada.
+2024-11-25 13:16:12,335 - INFO - Viaje con ID 1 actualizado exitosamente.
+2024-11-25 13:16:12,344 - INFO - Transacción confirmada.
+2024-11-25 13:16:12,344 - INFO - Transacción iniciada.
+2024-11-25 13:16:12,346 - INFO - Viajes con ID 1 eliminado exitosamente.
+2024-11-25 13:16:12,353 - INFO - Transacción confirmada.
+2024-11-25 13:16:12,354 - INFO - Transacción iniciada.
+2024-11-25 13:16:12,354 - INFO - Viaje 'Barcelona' insertada exitosamente.
+2024-11-25 13:16:12,357 - INFO - Transacción revertida.
+2024-11-25 13:16:12,358 - INFO - Conexión cerrada.

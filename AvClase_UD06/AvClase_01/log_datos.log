@@ -1,0 +1,9 @@
+2024-11-25 12:21:58,708 - INFO - Transacción iniciada.
+2024-11-25 12:21:58,708 - INFO - Dato agregado: {'destino': 'Cancun', 'duracion': '10', 'tipo_viaje': 'medico', 'precio': '700', 'fecha_salida': '20-01-2023'}
+2024-11-25 12:21:58,708 - INFO - Dato agregado: {'destino': 'Barcelona', 'duracion': '3', 'tipo_viaje': 'turismo', 'precio': '70', 'fecha_salida': '23-05-2024'}
+2024-11-25 12:21:58,708 - INFO - Dato agregado: {'destino': 'Zaragoza', 'duracion': '6', 'tipo_viaje': 'negocios', 'precio': '35', 'fecha_salida': '15-11-2020'}
+2024-11-25 12:21:58,709 - INFO - Transacción confirmada y cambios guardados.
+2024-11-25 12:21:58,709 - INFO - Configuración actualizada. Nueva ruta del archivo: actividad1.csv
+2024-11-25 12:21:58,709 - INFO - Transacción iniciada.
+2024-11-25 12:21:58,709 - INFO - Archivo CSV guardado. Versión actual: 3
+2024-11-25 12:21:58,709 - INFO - Transacción confirmada y cambios guardados.

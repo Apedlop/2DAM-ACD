@@ -1,0 +1,20 @@
+2024-12-05 09:38:11,260 - INFO - Conexión establecida y tablas creadas.
+2024-12-05 09:38:11,260 - INFO - Transacción iniciada.
+2024-12-05 09:38:11,261 - INFO - Proveedor creado: ProveedorA - Contacto 123-456-789
+2024-12-05 09:38:11,262 - INFO - Proveedor creado: ProveedorB - Contacto 987-654-321
+2024-12-05 09:38:11,275 - INFO - Transacción confirmada.
+2024-12-05 09:38:11,275 - INFO - Transacción iniciada.
+2024-12-05 09:38:11,285 - INFO - Transacción confirmada.
+2024-12-05 09:38:11,285 - INFO - Transacción iniciada.
+2024-12-05 09:38:11,291 - INFO - Transacción confirmada.
+2024-12-05 09:38:11,292 - INFO - Transacción iniciada.
+2024-12-05 09:38:11,292 - INFO - Herramienta creada: Martillo - Manual
+2024-12-05 09:38:11,293 - INFO - Herramienta creada: Taladro - Eléctrico
+2024-12-05 09:38:11,301 - INFO - Transacción confirmada.
+2024-12-05 09:38:11,302 - INFO - Leyendo herramientas:
+2024-12-05 09:38:11,303 - INFO - Martillo - Manual(ProveedorA)
+2024-12-05 09:38:11,304 - INFO - Taladro - Eléctrico(ProveedorA)
+2024-12-05 09:38:11,304 - INFO - Transacción iniciada.
+2024-12-05 09:38:11,305 - INFO - Transacción confirmada.
+2024-12-05 09:38:11,305 - INFO - Transacción iniciada.
+2024-12-05 09:38:11,313 - INFO - Transacción confirmada.

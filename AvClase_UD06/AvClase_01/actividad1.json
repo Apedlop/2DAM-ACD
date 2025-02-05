@@ -1,0 +1,23 @@
+[
+    {
+        "destino": "Cancun",
+        "duracion": "10",
+        "tipo_viaje": "medico",
+        "precio": "700",
+        "fecha_salida": "20-01-2023"
+    },
+    {
+        "destino": "Barcelona",
+        "duracion": "3",
+        "tipo_viaje": "turismo",
+        "precio": "70",
+        "fecha_salida": "23-05-2024"
+    },
+    {
+        "destino": "Zaragoza",
+        "duracion": "6",
+        "tipo_viaje": "negocios",
+        "precio": "35",
+        "fecha_salida": "15-11-2020"
+    }
+]
