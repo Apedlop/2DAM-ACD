@@ -10,7 +10,7 @@ puerto = 27017
 try:
     # Intentar conectarse al servidor MongoDB
     client = MongoClient(f"mongodb://{usuario}:{clave}@{host}:{puerto}/{base_datos}", serverSelectionTimeoutMS=5000)
-    
+   
     # Seleccionar la base de datos
     db = client[base_datos]
     
@@ -37,3 +37,5 @@ finally:
     if 'client' in locals():
         client.close()
         print("Conexión cerrada.")
+        
+        
