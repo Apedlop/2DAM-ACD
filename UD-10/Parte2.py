@@ -117,8 +117,11 @@ rf.fit(X_train, y_train)
 y_pred = rf.predict(X_test)
 
 # Evaluación del modelo
+# Evaluación del modelo
 mse = mean_squared_error(y_test, y_pred)
+rmse = np.sqrt(mse)  # Cálculo del RMSE
 print(f'Error Cuadrático Medio (MSE): {mse:.4f}')
+print(f'Root Mean Squared Error (RMSE): {rmse:.4f}')  # Mostrar el RMSE
 
 # Visualización de la regresión
 # Creamos un grid para la variable 'Trimester' para la visualización (suponiendo que se necesita para una visualización continua)
@@ -142,3 +145,56 @@ plt.xlabel('Trimester')
 plt.ylabel('Precio (€)')
 plt.legend()
 plt.show()
+
+# ====================
+# ACTIVIDAD 4 - Regresión Lineal Simple eliminando Outliers
+# ====================
+
+# Paso 1: Identificar y eliminar outliers en la variable objetivo (Price)
+# Utilizamos el rango intercuartílico (IQR) para detectar outliers
+Q1 = df['Price'].quantile(0.25)  # Primer cuartil (25%)
+Q3 = df['Price'].quantile(0.75)  # Tercer cuartil (75%)
+IQR = Q3 - Q1  # Rango intercuartílico
+
+# Definir los límites para detectar outliers
+lower_bound = Q1 - 1.5 * IQR
+upper_bound = Q3 + 1.5 * IQR
+
+# Filtrar el dataset para eliminar outliers
+df_filtered = df[(df['Price'] >= lower_bound) & (df['Price'] <= upper_bound)]
+
+# Paso 2: Ajustar un modelo de regresión lineal simple
+# Variables predictoras y objetivo (sin outliers)
+X_filtered = df_filtered[['Trimester']]  # Usamos solo 'Trimester' como predictor
+y_filtered = df_filtered['Price']  # Variable objetivo
+
+# Crear y ajustar el modelo de regresión lineal
+modelo_lineal_filtered = LinearRegression()
+modelo_lineal_filtered.fit(X_filtered, y_filtered)
+
+# Predicciones
+y_pred_filtered = modelo_lineal_filtered.predict(X_filtered)
+
+# Paso 3: Evaluar el modelo
+# Calcular RMSE (Root Mean Squared Error)
+mse_filtered = mean_squared_error(y_filtered, y_pred_filtered)  # Error cuadrático medio
+rmse_filtered = np.sqrt(mse_filtered)  # Raíz cuadrada del MSE
+
+print(f'RMSE (Root Mean Squared Error) sin outliers: {rmse_filtered:.2f}')
+print("Intercepto (w₀) sin outliers:", modelo_lineal_filtered.intercept_)
+print("Pendiente (w₁) sin outliers:", modelo_lineal_filtered.coef_[0])
+
+# Visualización de la regresión lineal sin outliers
+plt.scatter(X_filtered, y_filtered, color='blue', label='Datos sin outliers')  # Puntos originales sin outliers
+plt.plot(X_filtered, y_pred_filtered, color='red', label='Línea de regresión')  # Línea de regresión
+plt.title('Regresión Lineal Simple - Precio de Alquiler en Barcelona (sin outliers)')
+plt.xlabel('Trimestre')
+plt.ylabel('Precio (€)')
+plt.legend()
+plt.grid(True)
+plt.show()
+
+# Comparación de resultados con y sin outliers
+print("\nComparación de resultados:")
+print(f"RMSE con outliers: {rmse:.2f}")
+print(f"RMSE sin outliers: {rmse_filtered:.2f}")
